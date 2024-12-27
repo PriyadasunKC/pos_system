@@ -10,7 +10,7 @@ import {
   Divider,
 } from "@mui/material";
 import { LogoutOutlined as LogoutIcon } from "@mui/icons-material";
-import { DRAWER_WIDTH, MENU_ITEMS } from "../../utils/constants";
+import { DRAWER_WIDTH, MENU_ITEMS } from "../utils/constants";
 
 const Sidebar = ({ open, activeTab, onTabChange }) => {
   const drawerContent = (

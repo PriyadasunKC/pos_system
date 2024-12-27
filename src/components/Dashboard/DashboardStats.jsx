@@ -1,6 +1,6 @@
 
 import { Grid, Card, CardContent, Typography, Paper } from "@mui/material";
-import { DASHBOARD_STATS } from "../../utils/mockData";
+import { DASHBOARD_STATS } from "../utils/mockData";
 
 const DashboardStats = () => {
   return (

@@ -10,7 +10,7 @@ import {
   IconButton,
 } from "@mui/material";
 import { Edit as EditIcon, Delete as DeleteIcon } from "@mui/icons-material";
-import { PRODUCTS_DATA } from "../../utils/mockData";
+import { PRODUCTS_DATA } from "../utils/mockData";
 
 const ProductTable = () => {
   return (

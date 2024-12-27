@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import {
   Box,
@@ -17,8 +16,8 @@ import {
   Add as AddIcon,
 } from "@mui/icons-material";
 
-import { Main } from "../../styles/dashboardStyles";
-import { DRAWER_WIDTH } from "../../utils/constants";
+import { Main } from "../styles/dashboardStyles";
+import { DRAWER_WIDTH } from "../utils/constants";
 import Sidebar from "./Sidebar";
 import DashboardStats from "./DashboardStats";
 import ProductTable from "./ProductTable";
