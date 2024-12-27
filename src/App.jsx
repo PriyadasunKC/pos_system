@@ -1,5 +1,5 @@
 import 'react' 
-import AddProduct from './components/AddProduct'
+import Dashboard from './components/Dashboard'
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
 
 function App() {
@@ -8,11 +8,11 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/add-product" element={<AddProduct />} />
+          <Route path="/" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
 export default App
