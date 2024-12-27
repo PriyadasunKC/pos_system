@@ -1,5 +1,3 @@
-// AddProductForm.jsx
-import React from "react";
 import { X } from "lucide-react";
 
 export const AddProductForm = ({ onClose }) => {

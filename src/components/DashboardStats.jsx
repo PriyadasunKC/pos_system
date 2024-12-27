@@ -1,5 +1,3 @@
-// DashboardStats.jsx
-import React from "react";
 import { DollarSign, ShoppingCart, TrendingUp, Users } from "lucide-react";
 
 export const DashboardStats = () => {

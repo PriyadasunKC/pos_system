@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Layout } from "./Layout";
 import { ProductTable } from "./ProductTable";
 import { DashboardStats } from "./DashboardStats";
-import { AddProductForm } from "./AddProductForm";
+
 
 const Dashboard = () => {
   const [currentView, setCurrentView] = useState("dashboard");
